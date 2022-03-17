@@ -1,5 +1,6 @@
 const config = {
-    dbconstr:"mongodb+srv://admin:admin12357@cluster0.ze5ov.mongodb.net/api"
-}
+  dbconstr:
+    "mongodb+srv://productsapi:admin123@cluster0.vfczs.mongodb.net/node?retryWrites=true&w=majority",
+};
 
-module.exports =config
+module.exports = config;
